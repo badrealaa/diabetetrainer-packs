@@ -1,0 +1,39 @@
+{
+  "format": "diabetetrainer-pack",
+  "version": 1,
+  "id": "pack-2026-11-25",
+  "titre": "Pack 3 : ancien guide vs recommandations récentes",
+  "date": "2026-11-25",
+  "avertissement": "Contenu d'entraînement. Le guide de 2014 cité en source est ancien : les traitements doivent être vérifiés dans les recommandations actuelles et le RCP.",
+  "cas": [
+    {
+      "id": "p3c1",
+      "titre": "Homme de 58 ans, HbA1c 8,6 % sous glibenclamide",
+      "niveau": "Comparaison ancien/moderne",
+      "enonce": "M. K., 58 ans, DT2 depuis 8 ans, sans antécédent cardiovasculaire. Traitement : metformine 1 g × 2 et glibenclamide 10 mg le matin. HbA1c 8,6 %. DFG 80 mL/min/1,73 m². Il a eu une hypoglycémie sévère le mois dernier. Il a un poids de 88 kg, IMC 29.",
+      "questions": [
+        {"q": "Quel est le problème principal du traitement actuel ?", "c": ["La metformine à 2 g/j", "La glibenclamide, sulfamide à risque d'hypoglycémie sévère", "Le DFG à 80", "L'absence d'insuline"], "a": 1, "e": "La glibenclamide expose à des hypoglycémies prolongées, surtout en cas d'hypoglycémie sévère déjà survenue : à remplacer ou réduire (RCP ; HAS 2024).", "s": "HAS 2024 ; RCP glibenclamide"},
+        {"q": "Le guide de 2014 cite des objectifs HbA1c de 6,5 % à 7,5 % selon les cas. Quelle conduite actuelle est cohérente ?", "c": ["Garder la cible de 6,5 % pour tous", "Individualiser la cible, généralement < 7 %, en tenant compte du risque hypoglycémique", "Viser 9 % pour tous", "Ne pas avoir de cible"], "a": 1, "e": "Les recommandations actuelles individualisent la cible HbA1c, généralement < 7 %, en fonction du risque hypoglycémique et des comorbidités (ADA 2026 ; HAS 2024).", "s": "ADA 2026 ; HAS 2024"},
+        {"q": "Quelle classe ajouter ou substituer pour un bénéfice au-delà de la glycémie ?", "c": ["Une autre dose de sulfamide", "Un iSGLT2 ou un agoniste GLP-1 selon le profil cardiorénal et pondéral", "Une pioglitazone en cas d'insuffisance cardiaque", "Une insuline à forte dose sans autre avis"], "a": 1, "e": "Le choix dépend du profil (rein, cœur, poids). Les iSGLT2 et les agonistes GLP-1 ont des bénéfices cardiorénaux démontrés (ADA 2026 ; ESC/ERA 2026).", "s": "ADA 2026 ; ESC/ERA 2026"}
+      ]
+    },
+    {
+      "id": "p3c2",
+      "titre": "Femme de 45 ans, suivi en zone éloignée, accès limité aux examens",
+      "niveau": "Contexte de soins primaires",
+      "enonce": "Mme H., 45 ans, DT2 récent, IMC 27. Metformine 1 g × 2 bien tolérée. Elle habite loin du centre de santé et ne peut faire une HbA1c qu'une fois par an. Elle dispose d'un glucomètre mais le teste rarement. Elle demande comment suivre son diabète.",
+      "questions": [
+        {"q": "Quelle est la priorité du suivi dans ce contexte ?", "c": ["Une HbA1c tous les mois", "Un suivi clinique régulier (poids, tension, pieds) et une HbA1c à intervalle raisonnable, avec des examens ciblés", "Aucun suivi sans insuline", "Une glycémie capillaire quotidienne obligatoire"], "a": 1, "e": "La surveillance est individualisée : une autosurveillance glycémique n'est pas systématiquement nécessaire sous metformine seule ; le suivi clinique et les examens essentiels restent prioritaires (ADA 2026).", "s": "ADA 2026 — autosurveillance individualisée"},
+        {"q": "Quel examen ne doit pas être oublié malgré la distance ?", "c": ["Examen des pieds et dépistage de la rétinopathie", "Aucun", "Dosage de la vitamine D seulement", "Radiographie thoracique annuelle"], "a": 0, "e": "Les examens des pieds et le dépistage de la rétinopathie font partie du suivi annuel, même en zone éloignée (ADA 2026 ; HAS 2024).", "s": "ADA 2026 ; HAS 2024"},
+        {"q": "La metformine à 2 g/j est-elle adaptée chez cette patiente ?", "c": ["Non, il faut arrêter", "Oui, si le DFG est ≥ 45 et la tolérance bonne", "Uniquement à 500 mg", "Seulement chez les plus de 70 ans"], "a": 1, "e": "Pas de réduction de dose pour un DFG ≥ 45 ; surveiller la tolérance et la vitamine B12 au long cours (RCP ANSM).", "s": "RCP ANSM — metformine"}
+      ]
+    }
+  ],
+  "quiz": [
+    {"q": "Quel type de sulfamide le guide de 2014 recommande-t-il d'éviter chez le sujet âgé ?", "c": ["Sulfamides à action courte", "Sulfamides à action prolongée", "Gliclazide à faible dose", "Aucun"], "a": 1, "e": "Le guide de 2014 déconseille les sulfonylurées à action prolongée chez les patients âgés.", "s": "Guide de bonnes pratiques en diabétologie, 2014 (ancien)"},
+    {"q": "Quel médicament du diabète doit être évité en cas d'insuffisance cardiaque ?", "c": ["Pioglitazone", "Metformine", "Empagliflozine", "Insuline"], "a": 0, "e": "La pioglitazone favorise la rétention hydrosodée et est déconseillée en cas d'insuffisance cardiaque.", "s": "RCP pioglitazone"},
+    {"q": "La metformine au long cours expose à une carence :", "c": ["En vitamine B12", "En fer", "En vitamine K", "En zinc"], "a": 0, "e": "Une surveillance de la vitamine B12 est recommandée au long cours.", "s": "RCP ANSM — metformine"},
+    {"q": "Quelle est la bonne approche de la cible HbA1c aujourd'hui ?", "c": ["Une cible unique pour tous", "Une cible individualisée, généralement < 7 %", "Une cible sans limite", "Une cible < 5 % pour tous"], "a": 1, "e": "La cible est individualisée, généralement < 7 %, selon le risque d'hypoglycémie et les comorbidités.", "s": "ADA 2026 ; HAS 2024"},
+    {"q": "Une patiente diabétique sans insuline, en zone éloignée, a besoin en priorité de :", "c": ["Mesures quotidiennes de glycémie", "Suivi clinique régulier et examens essentiels (pieds, rétine, HbA1c)", "Aucun examen", "Une hospitalisation"], "a": 1, "e": "Suivi clinique et examens essentiels, avec une autosurveillance individualisée.", "s": "ADA 2026"}
+  ]
+}

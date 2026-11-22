@@ -1,0 +1,475 @@
+{
+  "format": "diabetetrainer-bundle",
+  "version": 1,
+  "titre": "Tous les packs DiabeteTrainer",
+  "packs": [
+    {
+      "format": "diabetetrainer-pack",
+      "version": 1,
+      "id": "pack-2026-11-23",
+      "titre": "Pack 1 : intensification et cas particuliers",
+      "date": "2026-11-23",
+      "avertissement": "Contenu d'entraînement. Vérifiez les doses dans le RCP et le texte intégral des recommandations.",
+      "cas": [
+        {
+          "id": "p1c1",
+          "titre": "Femme de 42 ans, IMC 32, HbA1c 7,2 % sous metformine",
+          "niveau": "Intensification",
+          "enonce": "Mme B., 42 ans, DT2 depuis 4 ans, IMC 32 kg/m². Metformine 2 g/j bien tolérée. HbA1c 7,2 %. DFG 95 mL/min/1,73 m², pas d'albuminurie, TA 124/78 mmHg. Pas d'antécédent cardiovasculaire. Elle souhaite perdre du poids.",
+          "questions": [
+            {
+              "q": "Quelle est la prochaine étape la plus appropriée ?",
+              "c": [
+                "Insuline basale d'emblée",
+                "Ajouter un agoniste GLP-1 ou un tirzépatide, en tenant compte de l'obésité",
+                "Ajouter un sulfamide",
+                "Ne rien changer, la HbA1c est proche de 7 %"
+              ],
+              "a": 1,
+              "e": "Avec une HbA1c au-dessus de l'objectif et une obésité, un agoniste GLP-1 ou le tirzépatide associe efficacité glycémique et perte de poids (ADA 2026, section sur la prise en charge pharmacologique et le poids).",
+              "s": "ADA 2026 — Standards of Care"
+            },
+            {
+              "q": "Quel point de vigilance avant prescription d'un agoniste GLP-1 ?",
+              "c": [
+                "Dosage de la vitamine D",
+                "Antécédent personnel ou familial de cancer médullaire de la thyroïde, contre-indication",
+                "Surveillance de la TSH sans symptôme",
+                "Aucun"
+              ],
+              "a": 1,
+              "e": "Contre-indication en cas d'antécédent personnel ou familial de cancer médullaire de la thyroïde ou de NEM2.",
+              "s": "RCP ANSM"
+            }
+          ]
+        },
+        {
+          "id": "p1c2",
+          "titre": "Homme de 68 ans, insuffisance cardiaque à fraction d'éjection réduite",
+          "niveau": "Cas particulier",
+          "enonce": "M. D., 68 ans, DT2 depuis 10 ans, insuffisance cardiaque à fraction d'éjection réduite (30 %) stable. HbA1c 7,6 % sous metformine et empagliflozine. Le cardiologue propose d'ajouter un traitement pour mieux contrôler la glycémie.",
+          "questions": [
+            {
+              "q": "Quel traitement éviter dans ce contexte ?",
+              "c": [
+                "Empagliflozine (déjà prescrite, à poursuivre)",
+                "Pioglitazone, à éviter en cas d'insuffisance cardiaque (rétention hydrosodée)",
+                "Metformine",
+                "Insuline basale"
+              ],
+              "a": 1,
+              "e": "La pioglitazone favorise la rétention hydrosodée et est déconseillée en cas d'insuffisance cardiaque.",
+              "s": "RCP pioglitazone ; ESC 2023"
+            },
+            {
+              "q": "Quel est le rôle des iSGLT2 dans l'insuffisance cardiaque ?",
+              "c": [
+                "Aucun, ce sont des hypoglycémiants uniquement",
+                "Bénéfice démontré sur les hospitalisations pour insuffisance cardiaque, à poursuivre",
+                "Contre-indication en cas d'insuffisance cardiaque",
+                "Réservés aux diabétiques de type 1"
+              ],
+              "a": 1,
+              "e": "Les iSGLT2 réduisent les hospitalisations pour insuffisance cardiaque chez les patients diabétiques et non diabétiques (recommandations ESC et ADA).",
+              "s": "ESC 2023 ; ADA 2026"
+            },
+            {
+              "q": "En cas d'agoniste GLP-1 chez ce patient, quelle précaution selon la SFD 2025 ?",
+              "c": [
+                "Aucune précaution particulière",
+                "Prudence particulière en cas de fraction d'éjection diminuée (< 40 %), un signal de surrisque ayant été rapporté avec certains GLP-1",
+                "Doubler la dose d'emblée",
+                "Interdiction absolue"
+              ],
+              "a": 1,
+              "e": "La SFD 2025 signale une prudence en cas de fraction d'éjection < 40 %, avec des données suggérant un surrisque pour certains GLP-1. À vérifier dans le texte intégral.",
+              "s": "SFD 2025 (à vérifier dans le texte intégral)"
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Quelle est la dose maximale de sitagliptine si le DFG est entre 30 et 44 mL/min/1,73 m² ?",
+          "c": [
+            "100 mg",
+            "50 mg",
+            "25 mg",
+            "Pas de dose : contre-indiqué"
+          ],
+          "a": 1,
+          "e": "Dose réduite à 50 mg/j pour un DFG entre 30 et 44 ; 25 mg/j en dessous de 30 (RCP).",
+          "s": "RCP sitagliptine"
+        },
+        {
+          "q": "Quel médicament du diabète est déconseillé en cas d'insuffisance cardiaque ?",
+          "c": [
+            "Empagliflozine",
+            "Metformine",
+            "Pioglitazone",
+            "Insuline"
+          ],
+          "a": 2,
+          "e": "La pioglitazone favorise la rétention hydrosodée : à éviter en cas d'insuffisance cardiaque.",
+          "s": "RCP pioglitazone"
+        },
+        {
+          "q": "Une HbA1c de 7,2 % chez une personne avec obésité justifie-t-elle un changement de traitement ?",
+          "c": [
+            "Non, la cible est atteinte à 7,5 %",
+            "Oui, la cible usuelle étant < 7 % ; un traitement avec effet pondéral peut être envisagé",
+            "Oui, il faut une insuline",
+            "Non, jamais avant 8 %"
+          ],
+          "a": 1,
+          "e": "La cible usuelle est inférieure à 7 %, individualisée. Un agoniste GLP-1 ou le tirzépatide peut être choisi pour l'effet pondéral.",
+          "s": "ADA 2026"
+        },
+        {
+          "q": "Quelle est la définition d'une hypoglycémie selon l'ADA ?",
+          "c": [
+            "Glycémie < 1 g/L",
+            "Glycémie < 0,70 g/L (3,9 mmol/L)",
+            "Glycémie < 1,26 g/L",
+            "Glycémie < 0,50 g/L"
+          ],
+          "a": 1,
+          "e": "< 0,70 g/L (3,9 mmol/L) ; sévère < 0,54 g/L (3,0 mmol/L).",
+          "s": "ADA 2026"
+        },
+        {
+          "q": "Quel bénéfice des iSGLT2 est démontré chez les patients avec maladie rénale chronique et DFG ≥ 20 ?",
+          "c": [
+            "Aucun",
+            "Réduction de la progression de la maladie rénale et des événements cardiovasculaires",
+            "Augmentation de la diurèse seule",
+            "Remplacement de la néphroprotection par IEC"
+          ],
+          "a": 1,
+          "e": "Les iSGLT2 réduisent la progression rénale et les événements cardiovasculaires chez les patients avec MRC et DT2 (ESC/ERA 2026 ; KDIGO).",
+          "s": "ESC/ERA 2026 ; KDIGO"
+        }
+      ]
+    },
+    {
+      "format": "diabetetrainer-pack",
+      "version": 1,
+      "id": "pack-2026-11-24",
+      "titre": "Pack 2 : rein, hypoglycémie et traitements injectables",
+      "date": "2026-11-24",
+      "avertissement": "Contenu d'entraînement. Vérifiez les doses dans le RCP et le texte intégral des recommandations.",
+      "cas": [
+        {
+          "id": "p2c1",
+          "titre": "Femme de 61 ans, DT2 et DFG à 38",
+          "niveau": "Complications rénales",
+          "enonce": "Mme L., 61 ans, DT2 depuis 12 ans, sous metformine 2 g/j. HbA1c 7,4 %. DFG 38 mL/min/1,73 m², albuminurie 120 mg/g (A2). Kaliémie 4,4 mmol/L. TA 132/82 mmHg sous IEC à dose maximale tolérée.",
+          "questions": [
+            {
+              "q": "Quelle est la dose maximale de metformine à respecter ?",
+              "c": [
+                "2 g/j",
+                "1 g/j",
+                "3 g/j",
+                "500 mg/j sans limite"
+              ],
+              "a": 1,
+              "e": "Entre 30 et 44 mL/min/1,73 m², la dose est réduite à 1 g/j (RCP ANSM).",
+              "s": "RCP ANSM — metformine"
+            },
+            {
+              "q": "Quel traitement ajouter pour protéger le rein et le cœur ?",
+              "c": [
+                "Sulfamide",
+                "iSGLT2 (empagliflozine ou dapagliflozine)",
+                "Pioglitazone",
+                "Insuline à forte dose"
+              ],
+              "a": 1,
+              "e": "Les iSGLT2 réduisent la progression de la maladie rénale chronique chez le DT2, avec DFG ≥ 20 (ESC/ERA 2026 ; KDIGO).",
+              "s": "ESC/ERA 2026 ; KDIGO 2022"
+            },
+            {
+              "q": "Quel contrôle biologique après ajout de l'iSGLT2 ?",
+              "c": [
+                "Aucun",
+                "Créatinine et kaliémie, avec une attention particulière à la baisse initiale du DFG, sans signe d'alarme",
+                "Dosage quotidien de la glycémie seulement",
+                "Dosage de la TSH"
+              ],
+              "a": 1,
+              "e": "Une baisse initiale modérée du DFG est attendue avec les iSGLT2 ; surveiller la créatinine et la kaliémie (RCP ; recommandations).",
+              "s": "RCP iSGLT2 ; ESC/ERA 2026 (à vérifier)"
+            }
+          ]
+        },
+        {
+          "id": "p2c2",
+          "titre": "Homme de 50 ans, hypoglycémies nocturnes sous insuline",
+          "niveau": "Hypoglycémie",
+          "enonce": "M. R., 50 ans, DT2 sous metformine et insuline basale 24 UI le soir. HbA1c 7,0 %. Il signale deux hypoglycémies nocturnes à 0,62 g/L la semaine dernière, sans symptômes en journée. Il dîne tard et sans repas collation.",
+          "questions": [
+            {
+              "q": "Quelle est la première mesure ?",
+              "c": [
+                "Augmenter la dose d'insuline",
+                "Réduire la dose basale d'environ 10 à 20 % et revoir le dîner",
+                "Arrêter la metformine",
+                "Ajouter un sulfamide"
+              ],
+              "a": 1,
+              "e": "Après une hypoglycémie nocturne, réduire la dose basale et adapter les repas du soir (ADA 2026, prise en charge de l'hypoglycémie).",
+              "s": "ADA 2026 — hypoglycémie"
+            },
+            {
+              "q": "Quel seuil définit une hypoglycémie selon l'ADA ?",
+              "c": [
+                "< 0,80 g/L",
+                "< 0,70 g/L (3,9 mmol/L)",
+                "< 1,00 g/L",
+                "< 0,50 g/L"
+              ],
+              "a": 1,
+              "e": "< 0,70 g/L (3,9 mmol/L) ; sévère < 0,54 g/L (3,0 mmol/L).",
+              "s": "ADA 2026"
+            },
+            {
+              "q": "Que faire en cas d'hypoglycémie diurne ?",
+              "c": [
+                "Rien",
+                "Sucre rapide (environ 15 g), recontrôle à 15 minutes, répéter si besoin",
+                "Attendre le repas",
+                "Injection d'insuline supplémentaire"
+              ],
+              "a": 1,
+              "e": "Règle des 15 g avec recontrôle à 15 minutes.",
+              "s": "ADA 2026 ; HAS 2024"
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Quelle est la fréquence d'injection du sémaglutide sous-cutané ?",
+          "c": [
+            "Quotidienne",
+            "Hebdomadaire",
+            "Mensuelle",
+            "Trimestrielle"
+          ],
+          "a": 1,
+          "e": "Une injection hebdomadaire (RCP).",
+          "s": "RCP sémaglutide"
+        },
+        {
+          "q": "Quel effet indésirable est typique des iSGLT2 ?",
+          "c": [
+            "Infections génitales mycosiques",
+            "Hypoglycémie sévère isolée",
+            "Pancréatite aiguë systématique",
+            "Insuffisance hépatique"
+          ],
+          "a": 0,
+          "e": "Infections génitales mycosiques ; hygiène et surveillance.",
+          "s": "RCP iSGLT2"
+        },
+        {
+          "q": "Quelle est la plage de l'albuminurie A2 (KDIGO) ?",
+          "c": [
+            "< 30 mg/g",
+            "30 à 300 mg/g",
+            "300 à 1000 mg/g",
+            "> 1000 mg/g"
+          ],
+          "a": 1,
+          "e": "A1 < 30, A2 30-300, A3 > 300 mg/g.",
+          "s": "KDIGO 2024"
+        },
+        {
+          "q": "Chez le sujet âgé, quel sulfamide est à éviter ?",
+          "c": [
+            "Gliclazide",
+            "Glibenclamide",
+            "Glimépiride à faible dose",
+            "Aucun"
+          ],
+          "a": 1,
+          "e": "La glibenclamide expose à des hypoglycémies prolongées : à éviter chez le sujet âgé.",
+          "s": "SFD 2025 ; HAS 2024"
+        },
+        {
+          "q": "Une hypoglycémie nocturne répétée sous insuline basale impose en priorité :",
+          "c": [
+            "D'augmenter la dose",
+            "De réduire la dose et revoir le schéma",
+            "De supprimer la metformine",
+            "Rien"
+          ],
+          "a": 1,
+          "e": "Réduire la dose et adapter le schéma, en évitant l'augmentation des doses.",
+          "s": "ADA 2026"
+        }
+      ]
+    },
+    {
+      "format": "diabetetrainer-pack",
+      "version": 1,
+      "id": "pack-2026-11-25",
+      "titre": "Pack 3 : ancien guide vs recommandations récentes",
+      "date": "2026-11-25",
+      "avertissement": "Contenu d'entraînement. Le guide de 2014 cité en source est ancien : les traitements doivent être vérifiés dans les recommandations actuelles et le RCP.",
+      "cas": [
+        {
+          "id": "p3c1",
+          "titre": "Homme de 58 ans, HbA1c 8,6 % sous glibenclamide",
+          "niveau": "Comparaison ancien/moderne",
+          "enonce": "M. K., 58 ans, DT2 depuis 8 ans, sans antécédent cardiovasculaire. Traitement : metformine 1 g × 2 et glibenclamide 10 mg le matin. HbA1c 8,6 %. DFG 80 mL/min/1,73 m². Il a eu une hypoglycémie sévère le mois dernier. Il a un poids de 88 kg, IMC 29.",
+          "questions": [
+            {
+              "q": "Quel est le problème principal du traitement actuel ?",
+              "c": [
+                "La metformine à 2 g/j",
+                "La glibenclamide, sulfamide à risque d'hypoglycémie sévère",
+                "Le DFG à 80",
+                "L'absence d'insuline"
+              ],
+              "a": 1,
+              "e": "La glibenclamide expose à des hypoglycémies prolongées, surtout en cas d'hypoglycémie sévère déjà survenue : à remplacer ou réduire (RCP ; HAS 2024).",
+              "s": "HAS 2024 ; RCP glibenclamide"
+            },
+            {
+              "q": "Le guide de 2014 cite des objectifs HbA1c de 6,5 % à 7,5 % selon les cas. Quelle conduite actuelle est cohérente ?",
+              "c": [
+                "Garder la cible de 6,5 % pour tous",
+                "Individualiser la cible, généralement < 7 %, en tenant compte du risque hypoglycémique",
+                "Viser 9 % pour tous",
+                "Ne pas avoir de cible"
+              ],
+              "a": 1,
+              "e": "Les recommandations actuelles individualisent la cible HbA1c, généralement < 7 %, en fonction du risque hypoglycémique et des comorbidités (ADA 2026 ; HAS 2024).",
+              "s": "ADA 2026 ; HAS 2024"
+            },
+            {
+              "q": "Quelle classe ajouter ou substituer pour un bénéfice au-delà de la glycémie ?",
+              "c": [
+                "Une autre dose de sulfamide",
+                "Un iSGLT2 ou un agoniste GLP-1 selon le profil cardiorénal et pondéral",
+                "Une pioglitazone en cas d'insuffisance cardiaque",
+                "Une insuline à forte dose sans autre avis"
+              ],
+              "a": 1,
+              "e": "Le choix dépend du profil (rein, cœur, poids). Les iSGLT2 et les agonistes GLP-1 ont des bénéfices cardiorénaux démontrés (ADA 2026 ; ESC/ERA 2026).",
+              "s": "ADA 2026 ; ESC/ERA 2026"
+            }
+          ]
+        },
+        {
+          "id": "p3c2",
+          "titre": "Femme de 45 ans, suivi en zone éloignée, accès limité aux examens",
+          "niveau": "Contexte de soins primaires",
+          "enonce": "Mme H., 45 ans, DT2 récent, IMC 27. Metformine 1 g × 2 bien tolérée. Elle habite loin du centre de santé et ne peut faire une HbA1c qu'une fois par an. Elle dispose d'un glucomètre mais le teste rarement. Elle demande comment suivre son diabète.",
+          "questions": [
+            {
+              "q": "Quelle est la priorité du suivi dans ce contexte ?",
+              "c": [
+                "Une HbA1c tous les mois",
+                "Un suivi clinique régulier (poids, tension, pieds) et une HbA1c à intervalle raisonnable, avec des examens ciblés",
+                "Aucun suivi sans insuline",
+                "Une glycémie capillaire quotidienne obligatoire"
+              ],
+              "a": 1,
+              "e": "La surveillance est individualisée : une autosurveillance glycémique n'est pas systématiquement nécessaire sous metformine seule ; le suivi clinique et les examens essentiels restent prioritaires (ADA 2026).",
+              "s": "ADA 2026 — autosurveillance individualisée"
+            },
+            {
+              "q": "Quel examen ne doit pas être oublié malgré la distance ?",
+              "c": [
+                "Examen des pieds et dépistage de la rétinopathie",
+                "Aucun",
+                "Dosage de la vitamine D seulement",
+                "Radiographie thoracique annuelle"
+              ],
+              "a": 0,
+              "e": "Les examens des pieds et le dépistage de la rétinopathie font partie du suivi annuel, même en zone éloignée (ADA 2026 ; HAS 2024).",
+              "s": "ADA 2026 ; HAS 2024"
+            },
+            {
+              "q": "La metformine à 2 g/j est-elle adaptée chez cette patiente ?",
+              "c": [
+                "Non, il faut arrêter",
+                "Oui, si le DFG est ≥ 45 et la tolérance bonne",
+                "Uniquement à 500 mg",
+                "Seulement chez les plus de 70 ans"
+              ],
+              "a": 1,
+              "e": "Pas de réduction de dose pour un DFG ≥ 45 ; surveiller la tolérance et la vitamine B12 au long cours (RCP ANSM).",
+              "s": "RCP ANSM — metformine"
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Quel type de sulfamide le guide de 2014 recommande-t-il d'éviter chez le sujet âgé ?",
+          "c": [
+            "Sulfamides à action courte",
+            "Sulfamides à action prolongée",
+            "Gliclazide à faible dose",
+            "Aucun"
+          ],
+          "a": 1,
+          "e": "Le guide de 2014 déconseille les sulfonylurées à action prolongée chez les patients âgés.",
+          "s": "Guide de bonnes pratiques en diabétologie, 2014 (ancien)"
+        },
+        {
+          "q": "Quel médicament du diabète doit être évité en cas d'insuffisance cardiaque ?",
+          "c": [
+            "Pioglitazone",
+            "Metformine",
+            "Empagliflozine",
+            "Insuline"
+          ],
+          "a": 0,
+          "e": "La pioglitazone favorise la rétention hydrosodée et est déconseillée en cas d'insuffisance cardiaque.",
+          "s": "RCP pioglitazone"
+        },
+        {
+          "q": "La metformine au long cours expose à une carence :",
+          "c": [
+            "En vitamine B12",
+            "En fer",
+            "En vitamine K",
+            "En zinc"
+          ],
+          "a": 0,
+          "e": "Une surveillance de la vitamine B12 est recommandée au long cours.",
+          "s": "RCP ANSM — metformine"
+        },
+        {
+          "q": "Quelle est la bonne approche de la cible HbA1c aujourd'hui ?",
+          "c": [
+            "Une cible unique pour tous",
+            "Une cible individualisée, généralement < 7 %",
+            "Une cible sans limite",
+            "Une cible < 5 % pour tous"
+          ],
+          "a": 1,
+          "e": "La cible est individualisée, généralement < 7 %, selon le risque d'hypoglycémie et les comorbidités.",
+          "s": "ADA 2026 ; HAS 2024"
+        },
+        {
+          "q": "Une patiente diabétique sans insuline, en zone éloignée, a besoin en priorité de :",
+          "c": [
+            "Mesures quotidiennes de glycémie",
+            "Suivi clinique régulier et examens essentiels (pieds, rétine, HbA1c)",
+            "Aucun examen",
+            "Une hospitalisation"
+          ],
+          "a": 1,
+          "e": "Suivi clinique et examens essentiels, avec une autosurveillance individualisée.",
+          "s": "ADA 2026"
+        }
+      ]
+    }
+  ]
+}
