@@ -1,0 +1,105 @@
+{
+  "format": "diabetetrainer-pack",
+  "version": 1,
+  "id": "pack-2026-11-25-b",
+  "titre": "Pack 4 : sujet âgé fragile et projet de grossesse",
+  "date": "2026-11-25",
+  "avertissement": "Contenu d'entraînement. Vérifiez les doses dans le RCP et le texte intégral des recommandations.",
+  "cas": [
+    {
+      "id": "p4c1",
+      "titre": "Homme de 81 ans, fragile, hypoglycémies répétées sous sulfamide",
+      "niveau": "Intermédiaire",
+      "enonce": "Homme de 81 ans, vivant seul, troubles cognitifs légers, chutes récentes. Traitement : metformine 1 g matin et soir, gliclazide 60 mg matin et midi. DFG à 52 ml/min. HbA1c à 7,4 %. La fille signale deux épisodes d'hypoglycémie au domicile au cours du dernier mois, dont un où le patient était confus et sans sueurs ni tremblements.",
+      "questions": [
+        {
+          "q": "Quelle cible d'HbA1c est la plus appropriée pour ce patient ?",
+          "c": ["< 6,5 %, à tout prix", "< 7 %, objectif strict", "< 8 %, individualisée, en évitant l'hypoglycémie", "< 9,5 %, sans objectif"],
+          "a": 2,
+          "e": "Chez le sujet âgé fragile, avec troubles cognitifs et chutes, la cible est assouplie et individualisée. Le risque d'hypoglycémie prime sur la recherche d'une HbA1c basse (ADA Standards of Care, chapitre personnes âgées ; à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026, chapitre personnes âgées"
+        },
+        {
+          "q": "Quel médicament est le plus susceptible de provoquer les hypoglycémies chez ce patient ?",
+          "c": ["La metformine", "Le gliclazide (sulfamide hypoglycémiant)", "Une gliptine (iDPP-4)", "Un agoniste du GLP-1"],
+          "a": 1,
+          "e": "Les sulfamides hypoglycémiants exposent au risque d'hypoglycémie, d'autant plus chez le sujet âgé ou en cas d'insuffisance rénale. La réduction ou l'arrêt du sulfamide est à envisager en priorité (RCP du gliclazide ; à vérifier).",
+          "s": "RCP gliclazide ; ADA Standards of Care 2026"
+        },
+        {
+          "q": "Quelle est la condition de poursuite de la metformine en fonction du DFG ?",
+          "c": ["Contre-indiquée dès que le DFG est inférieur à 60 ml/min", "Poursuite possible tant que le DFG est supérieur ou égal à 30 ml/min, avec adaptation de la dose", "Poursuite sans condition", "Contre-indiquée dès que le DFG est inférieur à 45 ml/min, sans exception"],
+          "a": 1,
+          "e": "La metformine reste utilisable tant que le DFG est supérieur ou égal à 30 ml/min ; la dose doit être réduite entre 30 et 45 ml/min, et elle est contre-indiquée en dessous de 30 (RCP metformine ; KDIGO 2022 ; à vérifier dans le texte intégral).",
+          "s": "RCP metformine ; KDIGO 2022"
+        }
+      ]
+    },
+    {
+      "id": "p4c2",
+      "titre": "Femme de 31 ans, diabète de type 2, projet de grossesse",
+      "niveau": "Intermédiaire",
+      "enonce": "Femme de 31 ans, diabète de type 2 diagnostiqué il y a 4 ans, HbA1c à 7,8 %. Elle est traitée par metformine 1 g deux fois par jour, ramipril 5 mg pour une hypertension artérielle, et atorvastatine 20 mg. Elle consulte pour un projet de grossesse dans les six prochains mois. Elle n'utilise pas de contraception fiable.",
+      "questions": [
+        {
+          "q": "Quelle attitude est la plus appropriée pour le ramipril avant la conception ?",
+          "c": ["Le poursuivre sans modification pendant la grossesse", "Le remplacer par un antihypertenseur compatible avec la grossesse, avant la conception", "L'arrêter seulement au 3e trimestre", "Le doubler pour contrôler la pression artérielle"],
+          "a": 1,
+          "e": "Les IEC et les sartans sont fœtotoxiques, surtout au 2e et au 3e trimestre. Ils sont à remplacer avant la conception, ou dès la découverte de la grossesse, par un traitement compatible (RCP des IEC ; avis ANSM ; à vérifier dans le texte intégral).",
+          "s": "RCP ramipril ; ANSM"
+        },
+        {
+          "q": "Quelle conduite concernant l'atorvastatine est recommandée ?",
+          "c": ["La poursuivre pendant toute la grossesse", "L'arrêter dès que la grossesse est connue", "La doubler pendant le projet de grossesse", "La remplacer systématiquement par un fibrate"],
+          "a": 1,
+          "e": "Les statines sont contre-indiquées pendant la grossesse et l'allaitement : elles doivent être arrêtées dès la découverte de la grossesse (RCP atorvastatine ; ANSM). Leur arrêt est généralement recommandé avant la conception.",
+          "s": "RCP atorvastatine ; ANSM"
+        },
+        {
+          "q": "Quel traitement antidiabétique est généralement privilégié pendant la grossesse chez une femme au diabète de type 2 préexistant ?",
+          "c": ["La metformine seule, sans discussion", "Une sulfonylurée", "L'insuline", "Un agoniste du GLP-1 en première intention"],
+          "a": 2,
+          "e": "L'insuline est le traitement de référence pendant la grossesse chez la femme au diabète préexistant. La place de la metformine est discutée et doit être évaluée avec le spécialiste (SFD ; ADA Standards of Care, chapitre grossesse ; à vérifier dans le texte intégral).",
+          "s": "SFD ; ADA Standards of Care 2026, chapitre grossesse"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quel antidiabétique oral expose le plus au risque d'hypoglycémie en monothérapie ?",
+      "c": ["La metformine", "La sitagliptine", "Une sulfonylurée", "La pioglitazone"],
+      "a": 2,
+      "e": "Les sulfonylurées stimulent la sécrétion d'insuline indépendamment de la glycémie, d'où un risque d'hypoglycémie plus élevé que la metformine, les iDPP-4 ou la pioglitazone.",
+      "s": "ADA Standards of Care 2026 ; RCP des sulfonylurées"
+    },
+    {
+      "q": "Chez un patient âgé fragile, quel signe peut révéler une hypoglycémie sans sueurs ni tremblements ?",
+      "c": ["Des sueurs isolées", "Une confusion, une chute ou un trouble du comportement", "Une polyurie", "Une soif intense"],
+      "a": 1,
+      "e": "Chez le sujet âgé, l'hypoglycémie peut se manifester par une confusion, une chute ou un changement de comportement, avec des signes adrénergiques atténués. Ce tableau doit faire rechercher une hypoglycémie.",
+      "s": "ADA Standards of Care 2026, chapitre personnes âgées (à vérifier dans le texte intégral)"
+    },
+    {
+      "q": "En dessous de quel DFG la metformine est-elle contre-indiquée ?",
+      "c": ["60 ml/min", "45 ml/min", "30 ml/min", "15 ml/min"],
+      "a": 2,
+      "e": "La metformine est contre-indiquée lorsque le DFG est inférieur à 30 ml/min ; entre 30 et 45 ml/min, la dose doit être réduite et la réévaluation doit être rapprochée (RCP metformine ; KDIGO 2022).",
+      "s": "RCP metformine ; KDIGO 2022"
+    },
+    {
+      "q": "Parmi ces médicaments, lequel doit être arrêté dès la découverte d'une grossesse ?",
+      "c": ["L'insuline", "Le paracétamol", "Le ramipril (IEC)", "La lévothyroxine"],
+      "a": 2,
+      "e": "Les IEC sont fœtotoxiques et doivent être arrêtés dès que la grossesse est connue, et remplacés par un traitement compatible avec la grossesse (RCP des IEC ; ANSM).",
+      "s": "RCP ramipril ; ANSM"
+    },
+    {
+      "q": "Chez une femme au diabète de type 2 qui planifie une grossesse, quel objectif d'HbA1c avant la conception est généralement visé s'il est atteignable sans hypoglycémie ?",
+      "c": ["Environ 9 %", "Environ 8 %", "Environ 7 %", "Environ 6,5 % ou moins"],
+      "a": 3,
+      "e": "L'objectif préconceptionnel est une HbA1c aussi proche de la normale que possible, généralement inférieure ou égale à 6,5 %, si elle est atteignable sans hypoglycémie significative (ADA Standards of Care, chapitre grossesse ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026, chapitre grossesse"
+    }
+  ]
+}
