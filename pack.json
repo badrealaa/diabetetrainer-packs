@@ -1,160 +1,160 @@
 {
   "format": "diabetetrainer-pack",
   "version": 1,
-  "id": "pack-2026-11-27",
-  "titre": "Pack 6 : fausse HbA1c, diagnostic et tension artérielle",
-  "date": "2026-11-27",
+  "id": "pack-2026-11-23",
+  "titre": "Pack 1 : néphroprotection et désintensification chez le sujet âgé",
+  "date": "2026-11-23",
   "avertissement": "Contenu d'entraînement. Vérifiez les doses dans le RCP et le texte intégral des recommandations.",
   "cas": [
     {
-      "id": "pack-2026-11-27c1",
-      "titre": "Femme de 49 ans, HbA1c discordante et anémie ferriprive",
-      "niveau": "Diagnostic",
-      "enonce": "Mme V., 49 ans, IMC 27. Elle consulte pour une fatigue. Hémogramme : hémoglobine 10,8 g/dL, microcytose, ferritine à 8 µg/L. HbA1c à 6,9 %. Elle mesure sa glycémie capillaire à jeun entre 1,15 et 1,30 g/L depuis trois semaines. Pas de traitement. Elle n'a pas de saignement extériorisé, mais ses règles sont abondantes.",
+      "id": "p20261123c1",
+      "titre": "Homme de 63 ans, DT2, DFG 52 et albuminurie A2",
+      "niveau": "Néphroprotection",
+      "enonce": "M. T., 63 ans, DT2 depuis 9 ans, sous metformine 2 g/j bien tolérée. HbA1c 7,8 %. DFG 52 mL/min/1,73 m², albuminurie 150 mg/g (A2). Pas d'insuffisance cardiaque. IMC 30. TA 138/84 mmHg sous IEC à dose maximale tolérée. Kaliémie 4,5 mmol/L.",
       "questions": [
         {
-          "q": "Quelle est l'interprétation la plus prudente de l'HbA1c à 6,9 % chez cette patiente ?",
+          "q": "Quelle est la place d'un iSGLT2 chez ce patient ?",
           "c": [
-            "Diabète confirmé, traitement immédiat sans autre examen",
-            "HbA1c peu fiable en contexte de carence martiale : il faut la confirmer et tenir compte des glycémies capillaires",
-            "Diabète exclu, l'HbA1c est normale",
-            "Résultat sans valeur, il faut une glycémie à 2 h après un repas"
+            "Contre-indiqué à ce DFG",
+            "Indiqué pour la néphroprotection et le risque cardiovasculaire, à associer à la metformine",
+            "Réservé aux patients sous insuline",
+            "Inutile si l'HbA1c est inférieure à 8 %"
           ],
           "a": 1,
-          "e": "La carence en fer peut modifier l'HbA1c (en général en l'élevant), si bien qu'elle ne reflète pas bien la glycémie moyenne. Des glycémies capillaires élevées imposent une évaluation complète plutôt que de se fier à une seule valeur (ADA Standards of Care 2026, chapitre diagnostic ; à vérifier dans le texte intégral).",
-          "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
+          "e": "Un iSGLT2 est recommandé chez le DT2 avec maladie rénale chronique et albuminurie, indépendamment de l'HbA1c (ADA 2026 ; KDIGO 2022 ; ESC/ERA 2026).",
+          "s": "ADA 2026 ; KDIGO 2022 ; ESC/ERA 2026"
         },
         {
-          "q": "Avant de conclure sur le diabète, quelle prise en charge de l'anémie est la plus appropriée ?",
+          "q": "Quelle dose de metformine retenir pour un DFG de 52 ?",
           "c": [
-            "Prescrire du fer sans rechercher la cause",
-            "Rechercher la cause de la carence en fer (règles abondantes, saignement digestif selon le contexte) et la traiter",
-            "Attendre la ménopause pour réévaluer",
-            "Arrêter les glycémies capillaires"
+            "Réduire à 1 g/j",
+            "Pas de réduction systématique pour un DFG ≥ 45, avec surveillance de la fonction rénale",
+            "Arrêter la metformine",
+            "Limiter à 500 mg/j"
           ],
           "a": 1,
-          "e": "Une carence martiale impose de chercher sa cause (pertes menstruelles, saignement digestif selon l'âge et le contexte) en plus de sa correction. Le bilan ne se limite pas au traitement par fer (bon sens clinique et recommandations nationales sur l'anémie ferriprive ; à vérifier dans le texte intégral).",
-          "s": "Recommandations nationales sur l'anémie ferriprive (à vérifier dans le texte intégral)"
+          "e": "Le RCP ne demande pas de réduction pour un DFG ≥ 45 ; la dose est réévaluée si le DFG baisse (RCP ANSM metformine).",
+          "s": "RCP ANSM — metformine"
         },
         {
-          "q": "Quel test peut éclairer la glycémie quand l'HbA1c est peu fiable ?",
+          "q": "Après l'ajout d'un iSGLT2, que peut-on attendre du DFG ?",
           "c": [
-            "Aucun, l'HbA1c reste fiable dans tous les cas",
-            "Pesée corporelle",
-            "Pas de test, il faut attendre trois mois",
-            "Profil glycémique capillaire, fructosamine ou glycémie à jeun, selon le contexte"
+            "Une chute brutale à moins de 20 mL/min",
+            "Une baisse initiale modérée et attendue du DFG, à surveiller sur créatinine et kaliémie",
+            "Une hausse systématique du DFG à 90",
+            "Aucun effet sur la créatinine"
           ],
-          "a": 3,
-          "e": "Lorsque l'HbA1c est discordante (anémie, hémolyse, saignement, insuffisance rénale), on s'appuie sur les glycémies capillaires, la fructosamine ou la glycémie plasmatique à jeun, selon le contexte (ADA Standards of Care 2026, chapitre diagnostic ; à vérifier).",
-          "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
+          "a": 1,
+          "e": "Une baisse initiale hémodynamique modérée est attendue ; elle ne justifie pas l'arrêt si elle reste dans les limites habituelles (RCP iSGLT2 ; KDIGO 2022, à vérifier dans le texte intégral).",
+          "s": "RCP iSGLT2 ; KDIGO 2022 (à vérifier dans le texte intégral)"
         }
       ]
     },
     {
-      "id": "pack-2026-11-27c2",
-      "titre": "Homme de 58 ans, diabète de type 2 récent et tension élevée",
-      "niveau": "Complications",
-      "enonce": "M. Z., 58 ans, diabète de type 2 découvert il y a 2 mois, IMC 30. HbA1c à 8,0 %, DFG 78 mL/min/1,73 m², albuminurie 45 mg/g (A2). Tension artérielle à 146/90 mmHg sur deux mesures au cabinet, sans traitement antihypertenseur. Kaliémie 4,2 mmol/L. Il fume 10 cigarettes par jour. Pas d'antécédent cardiovasculaire connu.",
+      "id": "p20261123c2",
+      "titre": "Femme de 72 ans, vit seule, chutes et glycémies basses sous sulfamide",
+      "niveau": "Désintensification",
+      "enonce": "Mme V., 72 ans, DT2 depuis 15 ans, vit seule, fragilité modérée et une chute récente. Traitement : metformine 1 g × 2 et gliclazide 60 mg le matin. HbA1c 6,8 %. Elle signale des malaises matinaux, deux glycémies capillaires à 0,62 g/L le mois dernier. Pas d'hypoglycémie sévère rapportée.",
       "questions": [
         {
-          "q": "Quelle cible tensionnelle viser chez ce patient ?",
+          "q": "Quelle est la décision la plus appropriée ?",
           "c": [
-            "Inférieure à 140/90 mmHg",
-            "Inférieure à 130/80 mmHg si elle est bien tolérée",
-            "Inférieure à 120/70 mmHg dans tous les cas",
-            "Aucune cible chez le diabétique"
+            "Augmenter le gliclazide pour améliorer le contrôle",
+            "Désintensifier : réduire ou arrêter le sulfamide, en privilégiant un traitement à faible risque hypoglycémique",
+            "Ajouter une insuline basale d'emblée",
+            "Ne rien changer, l'HbA1c est bonne"
           ],
           "a": 1,
-          "e": "Les recommandations ADA visent en général une tension inférieure à 130/80 mmHg chez l'adulte diabétique, si elle est bien tolérée, en évitant l'hypotension orthostatique (à vérifier dans le texte intégral).",
-          "s": "ADA Standards of Care 2026, chapitre gestion du risque cardiovasculaire (à vérifier)"
+          "e": "Chez une personne âgée fragile avec hypoglycémies, la désintensification est prioritaire (ADA 2026 ; HAS 2024).",
+          "s": "ADA 2026 ; HAS 2024"
         },
         {
-          "q": "Quel traitement antihypertenseur privilégier en première intention, compte tenu de l'albuminurie A2 ?",
+          "q": "Quelle cible HbA1c est généralement proposée chez une personne âgée fragile ?",
           "c": [
-            "Un IEC ou un sartan (ARA II), dont la néphroprotection est documentée",
-            "Un bêtabloquant seul, en première intention",
-            "Un diurétique de l'anse seul, sans autre classe",
-            "Aucun traitement, l'albuminurie est modérée"
+            "Moins de 6,5 % pour tous",
+            "Moins de 7 % pour tous, sans individualisation",
+            "Environ 8 % ou moins, selon la fragilité et le risque hypoglycémique",
+            "Aucune cible"
           ],
-          "a": 0,
-          "e": "En cas d'hypertension et d'albuminurie chez le diabétique, un IEC ou un ARA II est recommandé en première intention, à dose progressive, avec contrôle de la créatinine et de la kaliémie après l'instauration (ADA 2026 ; KDIGO 2024 ; à vérifier dans le texte intégral pour le délai et les seuils).",
-          "s": "ADA Standards of Care 2026 ; KDIGO 2024 (à vérifier dans le texte intégral)"
+          "a": 2,
+          "e": "La cible est individualisée ; chez les patients complexes ou fragiles, une cible plus souple (environ < 8 %) est proposée (ADA 2026, à vérifier dans le texte intégral).",
+          "s": "ADA 2026 (à vérifier dans le texte intégral)"
         },
         {
-          "q": "Quel bilan est recommandé au diagnostic, en plus de la glycémie ?",
+          "q": "Que définit-on comme hypoglycémie selon l'ADA ?",
           "c": [
-            "Aucun, la glycémie suffit",
-            "Examen du fond d'œil et bilan lipidique, une statine étant à discuter selon le risque cardiovasculaire",
-            "Scanner thoracique systématique",
-            "Dosage de la vitamine B12 seul"
+            "Glycémie inférieure à 0,80 g/L",
+            "Glycémie inférieure à 0,70 g/L (3,9 mmol/L)",
+            "Glycémie inférieure à 1,00 g/L",
+            "Glycémie inférieure à 0,50 g/L"
           ],
           "a": 1,
-          "e": "Au diagnostic du diabète de type 2, un examen de la rétine et un bilan lipidique sont recommandés. Une statine est généralement indiquée chez l'adulte diabétique de 40 à 75 ans, avec une intensité adaptée au risque cardiovasculaire (ADA 2026 ; à vérifier dans le texte intégral).",
-          "s": "ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+          "e": "Hypoglycémie < 0,70 g/L (3,9 mmol/L) ; hypoglycémie sévère < 0,54 g/L (3,0 mmol/L).",
+          "s": "ADA 2026"
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Quelle est la cible tensionnelle la plus souvent retenue chez l'adulte diabétique ?",
+      "q": "À partir de quel DFG la metformine est-elle contre-indiquée ?",
       "c": [
-        "Inférieure à 140/90 mmHg",
-        "Inférieure à 130/80 mmHg si elle est bien tolérée",
-        "Inférieure à 120/80 mmHg pour tous",
-        "Inférieure à 150/90 mmHg"
+        "< 60 mL/min/1,73 m²",
+        "< 45 mL/min/1,73 m²",
+        "< 30 mL/min/1,73 m²",
+        "< 15 mL/min/1,73 m²"
       ],
-      "a": 1,
-      "e": "La cible usuelle est inférieure à 130/80 mmHg si elle est bien tolérée, à individualiser selon le risque et la tolérance (ADA 2026 ; à vérifier dans le texte intégral).",
-      "s": "ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+      "a": 2,
+      "e": "Contre-indication en dessous de 30 mL/min/1,73 m² ; réduction de dose entre 30 et 44 (RCP ANSM).",
+      "s": "RCP ANSM — metformine"
     },
     {
-      "q": "Une HbA1c isolée de 6,7 % sans symptômes ni hyperglycémie franche : que faut-il faire ?",
+      "q": "Quelle classe est recommandée pour la néphroprotection chez un DT2 avec maladie rénale chronique ?",
       "c": [
-        "Diagnostiquer le diabète immédiatement",
-        "Confirmer par un second test concordant avant de conclure",
-        "Exclure le diabète définitivement",
-        "Attendre cinq ans avant de retester"
+        "iSGLT2",
+        "Sulfamide hypoglycémiant",
+        "Pioglitazone",
+        "Répaglinide"
       ],
-      "a": 1,
-      "e": "Le seuil d'HbA1c diagnostique est de 6,5 % ou plus. Sauf hyperglycémie franche, le diagnostic est confirmé par un second résultat concordant (ADA 2026, chapitre diagnostic ; à vérifier).",
-      "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
+      "a": 0,
+      "e": "Les iSGLT2 réduisent la progression de la maladie rénale et les événements cardiovasculaires.",
+      "s": "KDIGO 2022 ; ADA 2026"
     },
     {
-      "q": "Au diagnostic d'un diabète de type 2, quel examen de la rétine est recommandé ?",
+      "q": "Chez une personne âgée fragile, quelle cible HbA1c individualisée est généralement proposée ?",
       "c": [
-        "Aucun, sauf symptômes visuels",
-        "Examen du fond d'œil dilaté au diagnostic, puis à intervalle fixé selon le risque",
-        "Uniquement après dix ans d'évolution",
-        "Tous les cinq ans seulement"
+        "< 6,5 %",
+        "< 7 % pour tous",
+        "Environ < 8 %",
+        "Pas de cible"
       ],
-      "a": 1,
-      "e": "Un examen de la rétine est recommandé au diagnostic du diabète de type 2, puis selon le risque et les résultats (souvent annuel en présence de rétinopathie, tous les un à deux ans sinon ; à vérifier dans le texte intégral).",
-      "s": "ADA Standards of Care 2026, chapitre rétinopathie (à vérifier dans le texte intégral)"
+      "a": 2,
+      "e": "Cible plus souple chez les patients fragiles, selon le risque hypoglycémique (ADA 2026, à vérifier dans le texte intégral).",
+      "s": "ADA 2026 (à vérifier dans le texte intégral)"
     },
     {
-      "q": "Quel test est utilisé pour dépister l'albuminurie chez un patient diabétique ?",
+      "q": "Quel risque rare des iSGLT2 faut-il connaître ?",
       "c": [
-        "La bandelette urinaire seule, sans répétition",
-        "Le rapport albumine/créatinine urinaire sur échantillon, à confirmer si besoin",
-        "La glycémie à jeun",
-        "Le dosage de la créatinine plasmatique seul"
+        "Cétoacidose euglycémique",
+        "Hyperplasie prostatique",
+        "Hépatite aiguë systématique",
+        "Hypercalcémie"
       ],
-      "a": 1,
-      "e": "Le rapport albumine/créatinine urinaire est le test de référence pour dépister et classer l'albuminurie (A1, A2, A3), à confirmer par un second prélèvement si le résultat est anormal (KDIGO 2024 ; ADA 2026 ; à vérifier).",
-      "s": "KDIGO 2024 ; ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+      "a": 0,
+      "e": "La cétoacidose euglycémique est un effet indésirable rare à connaître, notamment en cas de jeûne ou de maladie aiguë (RCP iSGLT2).",
+      "s": "RCP iSGLT2"
     },
     {
-      "q": "Chez un diabétique fumeur, quelle démarche est recommandée ?",
+      "q": "Si un sulfamide est nécessaire chez une personne âgée, quel choix est généralement préféré ?",
       "c": [
-        "Ne rien proposer, le tabac n'influence pas le risque cardiovasculaire",
-        "Proposer un sevrage tabagique de façon systématique, avec un accompagnement",
-        "Réserver le sevrage aux patients sans hypertension",
-        "Déconseiller l'arrêt pour éviter une prise de poids"
+        "Glibenclamide",
+        "Gliclazide",
+        "Glimépiride à forte dose",
+        "Tolbutamide"
       ],
       "a": 1,
-      "e": "Le tabac aggrave le risque cardiovasculaire chez le diabétique ; l'arrêt doit être proposé systématiquement avec un accompagnement (ADA 2026 ; recommandations nationales sur le sevrage tabagique ; à vérifier dans le texte intégral).",
-      "s": "ADA Standards of Care 2026 ; recommandations nationales sur le sevrage tabagique (à vérifier)"
+      "e": "Le gliclazide est préféré à la glibenclamide chez le sujet âgé, avec moins de risque d'hypoglycémie prolongée (HAS 2024 ; SFD 2025, à vérifier).",
+      "s": "HAS 2024 ; SFD 2025 (à vérifier)"
     }
   ]
 }
