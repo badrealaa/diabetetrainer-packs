@@ -1,148 +1,160 @@
 {
   "format": "diabetetrainer-pack",
   "version": 1,
-  "id": "pack-2026-11-26",
-  "titre": "Pack 5 : stéatose hépatique et pied diabétique",
-  "date": "2026-11-26",
+  "id": "pack-2026-11-27",
+  "titre": "Pack 6 : fausse HbA1c, diagnostic et tension artérielle",
+  "date": "2026-11-27",
   "avertissement": "Contenu d'entraînement. Vérifiez les doses dans le RCP et le texte intégral des recommandations.",
   "cas": [
     {
-      "id": "pack-2026-11-26c1",
-      "titre": "Homme de 56 ans, DT2 avec stéatose hépatique",
-      "niveau": "Intermédiaire",
-      "enonce": "Homme de 56 ans, diabète de type 2 depuis 6 ans, IMC 31 kg/m². HbA1c 7,4 % sous metformine 1,7 g/j et empagliflozine 10 mg/j. Bilan hépatique : ALAT 62 U/L, ASAT 48 U/L. Plaquettes 210 G/L. L'échographie hépatique montre une stéatose. Pas de consommation d'alcool excessive déclarée.",
+      "id": "pack-2026-11-27c1",
+      "titre": "Femme de 49 ans, HbA1c discordante et anémie ferriprive",
+      "niveau": "Diagnostic",
+      "enonce": "Mme V., 49 ans, IMC 27. Elle consulte pour une fatigue. Hémogramme : hémoglobine 10,8 g/dL, microcytose, ferritine à 8 µg/L. HbA1c à 6,9 %. Elle mesure sa glycémie capillaire à jeun entre 1,15 et 1,30 g/L depuis trois semaines. Pas de traitement. Elle n'a pas de saignement extériorisé, mais ses règles sont abondantes.",
       "questions": [
         {
-          "q": "Quel est le score FIB-4 de ce patient et quelle conduite adopter ?",
+          "q": "Quelle est l'interprétation la plus prudente de l'HbA1c à 6,9 % chez cette patiente ?",
           "c": [
-            "FIB-4 d'environ 0,8 : fibrose avancée exclue, surveillance biologique seule",
-            "FIB-4 d'environ 1,6 : zone intermédiaire, élastographie hépatique recommandée",
-            "FIB-4 d'environ 3,5 : adressage immédiat en hépatologie sans autre examen",
-            "Le FIB-4 n'est pas interprétable avant 65 ans, aucune conduite à tenir"
+            "Diabète confirmé, traitement immédiat sans autre examen",
+            "HbA1c peu fiable en contexte de carence martiale : il faut la confirmer et tenir compte des glycémies capillaires",
+            "Diabète exclu, l'HbA1c est normale",
+            "Résultat sans valeur, il faut une glycémie à 2 h après un repas"
           ],
           "a": 1,
-          "e": "FIB-4 = (âge × ASAT) / (plaquettes × √ALAT) = (56 × 48) / (210 × √62) ≈ 1,63. Pour un patient de moins de 65 ans, les seuils usuels sont 1,3 et 2,67 : entre les deux, la fibrose avancée n'est ni exclue ni confirmée, d'où l'élastographie hépatique (ou un autre test de fibrose, selon disponibilité). Les seuils exacts et les modalités sont à vérifier dans le texte intégral des recommandations EASL/EASD/EASO sur la MASLD.",
-          "s": "EASL-EASD-EASO, recommandations de pratique clinique sur la MASLD (2024) ; ADA Standards of Care 2026 (à vérifier)"
+          "e": "La carence en fer peut modifier l'HbA1c (en général en l'élevant), si bien qu'elle ne reflète pas bien la glycémie moyenne. Des glycémies capillaires élevées imposent une évaluation complète plutôt que de se fier à une seule valeur (ADA Standards of Care 2026, chapitre diagnostic ; à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
         },
         {
-          "q": "Chez ce patient diabétique avec stéatose et obésité, quelle classe ajouter en priorité à la metformine et à l'iSGLT2 pour un bénéfice pondéral et hépatique ?",
+          "q": "Avant de conclure sur le diabète, quelle prise en charge de l'anémie est la plus appropriée ?",
           "c": [
-            "Sulfamide hypoglycémiant, peu coûteux et efficace sur le poids",
-            "Agoniste GLP-1 (par exemple sémaglutide), en tenant compte de la tolérance digestive",
-            "Insuline basale d'emblée, avant tout autre traitement",
-            "Arrêt de l'iSGLT2, car il favorise la stéatose"
+            "Prescrire du fer sans rechercher la cause",
+            "Rechercher la cause de la carence en fer (règles abondantes, saignement digestif selon le contexte) et la traiter",
+            "Attendre la ménopause pour réévaluer",
+            "Arrêter les glycémies capillaires"
           ],
           "a": 1,
-          "e": "Les agonistes GLP-1 ont un bénéfice sur le poids et sont recommandés en priorité en cas d'obésité ou de MASLD associée au diabète, en plus de la metformine et de l'iSGLT2 déjà en place. Leur effet sur la fibrose hépatique est surtout documenté avec le sémaglutide dans les formes à stéatohépatite (à vérifier). Les sulfamides prennent leur place en cas de besoin de baisse glycémique supplémentaire, mais sont moins pertinents ici sur le poids.",
-          "s": "ADA Standards of Care 2026, sections sur l'obésité et la MASLD (à vérifier) ; EASL-EASD-EASO 2024"
+          "e": "Une carence martiale impose de chercher sa cause (pertes menstruelles, saignement digestif selon l'âge et le contexte) en plus de sa correction. Le bilan ne se limite pas au traitement par fer (bon sens clinique et recommandations nationales sur l'anémie ferriprive ; à vérifier dans le texte intégral).",
+          "s": "Recommandations nationales sur l'anémie ferriprive (à vérifier dans le texte intégral)"
+        },
+        {
+          "q": "Quel test peut éclairer la glycémie quand l'HbA1c est peu fiable ?",
+          "c": [
+            "Aucun, l'HbA1c reste fiable dans tous les cas",
+            "Pesée corporelle",
+            "Pas de test, il faut attendre trois mois",
+            "Profil glycémique capillaire, fructosamine ou glycémie à jeun, selon le contexte"
+          ],
+          "a": 3,
+          "e": "Lorsque l'HbA1c est discordante (anémie, hémolyse, saignement, insuffisance rénale), on s'appuie sur les glycémies capillaires, la fructosamine ou la glycémie plasmatique à jeun, selon le contexte (ADA Standards of Care 2026, chapitre diagnostic ; à vérifier).",
+          "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
         }
       ]
     },
     {
-      "id": "pack-2026-11-26c2",
-      "titre": "Femme de 67 ans, neuropathie périphérique et cors à l'avant-pied",
-      "niveau": "Intermédiaire",
-      "enonce": "Femme de 67 ans, diabète de type 2 depuis 15 ans, sous insuline basale et metformine. Neuropathie périphérique connue. Consultation de suivi : au monofilament de 10 g, la sensibilité est diminuée aux deux pieds. Les pouls pédieux sont présents. Cor plantaire à l'avant-pied droit, sans plaie ni rougeur. Pas d'antécédent d'ulcère ni d'amputation.",
+      "id": "pack-2026-11-27c2",
+      "titre": "Homme de 58 ans, diabète de type 2 récent et tension élevée",
+      "niveau": "Complications",
+      "enonce": "M. Z., 58 ans, diabète de type 2 découvert il y a 2 mois, IMC 30. HbA1c à 8,0 %, DFG 78 mL/min/1,73 m², albuminurie 45 mg/g (A2). Tension artérielle à 146/90 mmHg sur deux mesures au cabinet, sans traitement antihypertenseur. Kaliémie 4,2 mmol/L. Il fume 10 cigarettes par jour. Pas d'antécédent cardiovasculaire connu.",
       "questions": [
         {
-          "q": "Quelle est la catégorie de risque ulcératif de cette patiente et à quel rythme la réévaluer ?",
+          "q": "Quelle cible tensionnelle viser chez ce patient ?",
           "c": [
-            "Risque élevé, consultation spécialisée tous les mois",
-            "Perte de sensibilité protectrice sans artériopathie ni antécédent d'ulcère : risque faible à modéré, réévaluation tous les 6 à 12 mois",
-            "Risque nul car les pouls sont présents, pas de suivi particulier",
-            "Risque élevé, mais réévaluation seulement en cas de symptôme"
+            "Inférieure à 140/90 mmHg",
+            "Inférieure à 130/80 mmHg si elle est bien tolérée",
+            "Inférieure à 120/70 mmHg dans tous les cas",
+            "Aucune cible chez le diabétique"
           ],
           "a": 1,
-          "e": "La perte de sensibilité protectrice (LOPS) fait partie des facteurs de risque, mais sans artériopathie ni antécédent d'ulcère ou d'amputation, le risque est classé faible à modéré selon la classification IWGDF. La présence de pouls ne suffit pas à exclure une artériopathie : un examen vasculaire (index de pression systolique si besoin) reste indiqué en cas de doute. Le rythme de réévaluation habituel est de 6 à 12 mois (à vérifier dans le texte intégral).",
-          "s": "IWGDF, recommandations sur le pied diabétique (2023) ; ADA Standards of Care 2026, section pied (à vérifier)"
+          "e": "Les recommandations ADA visent en général une tension inférieure à 130/80 mmHg chez l'adulte diabétique, si elle est bien tolérée, en évitant l'hypotension orthostatique (à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026, chapitre gestion du risque cardiovasculaire (à vérifier)"
         },
         {
-          "q": "Quelle est la prise en charge du cor plantaire chez cette patiente ?",
+          "q": "Quel traitement antihypertenseur privilégier en première intention, compte tenu de l'albuminurie A2 ?",
           "c": [
-            "Retirer le cor soi-même avec un produit caustique à domicile",
-            "Parage par un professionnel formé (podologue ou équipe spécialisée), éducation à la chaussure adaptée et surveillance",
-            "Ne rien faire, un cor n'a pas de conséquence chez un patient neuropathique",
-            "Pansement occlusif avec antibiotique local systématique"
+            "Un IEC ou un sartan (ARA II), dont la néphroprotection est documentée",
+            "Un bêtabloquant seul, en première intention",
+            "Un diurétique de l'anse seul, sans autre classe",
+            "Aucun traitement, l'albuminurie est modérée"
           ],
-          "a": 1,
-          "e": "Chez un patient neuropathique, un cor est une zone de surpression qui peut évoluer vers une ulcération. Le parage doit être fait par un professionnel formé, et non par le patient. L'éducation (chaussures bien ajustées, inspection quotidienne des pieds) fait partie de la prise en charge. Les produits caustiques sont à proscrire.",
-          "s": "IWGDF, recommandations sur le pied diabétique (2023) ; HAS, prise en charge du patient diabétique (à vérifier)"
+          "a": 0,
+          "e": "En cas d'hypertension et d'albuminurie chez le diabétique, un IEC ou un ARA II est recommandé en première intention, à dose progressive, avec contrôle de la créatinine et de la kaliémie après l'instauration (ADA 2026 ; KDIGO 2024 ; à vérifier dans le texte intégral pour le délai et les seuils).",
+          "s": "ADA Standards of Care 2026 ; KDIGO 2024 (à vérifier dans le texte intégral)"
         },
         {
-          "q": "Quel signal doit faire envisager une consultation urgente avec le pied de cette patiente ?",
+          "q": "Quel bilan est recommandé au diagnostic, en plus de la glycémie ?",
           "c": [
-            "Une sensation de fatigue des jambes en fin de journée",
-            "Une plaie ou un cor qui devient rouge, chaud, douloureux ou suintant, avec fièvre éventuelle",
-            "Une sensibilité diminuée au monofilament déjà connue",
-            "Un pouls pédieux présent à l'examen"
+            "Aucun, la glycémie suffit",
+            "Examen du fond d'œil et bilan lipidique, une statine étant à discuter selon le risque cardiovasculaire",
+            "Scanner thoracique systématique",
+            "Dosage de la vitamine B12 seul"
           ],
           "a": 1,
-          "e": "Chez un patient avec neuropathie, la douleur est souvent absente : une infection peut être importante avant d'être perçue. Une plaie ou une zone de cor inflammatoire, avec signes locaux ou généraux, justifie un avis urgent (examen, bilan d'infection, éventuellement imagerie et antibiothérapie, selon le texte intégral des recommandations). Les autres réponses correspondent à des constats habituels chez ce profil et ne sont pas des signes d'alerte.",
-          "s": "IWGDF / IDSA, recommandations sur les infections du pied diabétique (à vérifier dans le texte intégral)"
+          "e": "Au diagnostic du diabète de type 2, un examen de la rétine et un bilan lipidique sont recommandés. Une statine est généralement indiquée chez l'adulte diabétique de 40 à 75 ans, avec une intensité adaptée au risque cardiovasculaire (ADA 2026 ; à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Quel est le seuil de DFG en dessous duquel la metformine est contre-indiquée ?",
+      "q": "Quelle est la cible tensionnelle la plus souvent retenue chez l'adulte diabétique ?",
       "c": [
-        "Moins de 60 mL/min/1,73 m²",
-        "Moins de 45 mL/min/1,73 m²",
-        "Moins de 30 mL/min/1,73 m²",
-        "Moins de 15 mL/min/1,73 m²"
-      ],
-      "a": 2,
-      "e": "Selon le RCP de la metformine, la contre-indication est retenue pour un DFG inférieur à 30 mL/min/1,73 m². Entre 30 et 45, la réévaluation du bénéfice-risque et la réduction des doses sont à discuter (à vérifier dans le RCP).",
-      "s": "RCP metformine (ANSM) ; KDIGO 2022 diabète et maladie rénale chronique"
-    },
-    {
-      "q": "Chez un adulte diabétique non enceinte, quelle est la cible glycémique HbA1c générale recommandée par l'ADA ?",
-      "c": [
-        "Inférieure à 6 %",
-        "Inférieure à 7 %",
-        "Inférieure à 8 %",
-        "Inférieure à 9 %"
+        "Inférieure à 140/90 mmHg",
+        "Inférieure à 130/80 mmHg si elle est bien tolérée",
+        "Inférieure à 120/80 mmHg pour tous",
+        "Inférieure à 150/90 mmHg"
       ],
       "a": 1,
-      "e": "La cible générale est une HbA1c inférieure à 7 % pour la plupart des adultes, à individualiser selon l'âge, les comorbidités, le risque d'hypoglycémie et l'espérance de vie. Une cible plus stricte peut être visée chez certains patients sans risque d'hypoglycémie, et une cible plus souple chez les sujets âgés fragiles.",
-      "s": "ADA Standards of Care 2026, section 6 (à vérifier dans le texte intégral)"
+      "e": "La cible usuelle est inférieure à 130/80 mmHg si elle est bien tolérée, à individualiser selon le risque et la tolérance (ADA 2026 ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
     },
     {
-      "q": "Chez un homme de 56 ans diabétique de type 2 sans maladie cardiovasculaire établie, que recommande-t-on en général pour le traitement lipidique ?",
+      "q": "Une HbA1c isolée de 6,7 % sans symptômes ni hyperglycémie franche : que faut-il faire ?",
       "c": [
-        "Aucune statine, car le diabète seul ne justifie pas de traitement",
-        "Une statine, dont l'intensité et la cible de LDL-cholestérol dépendent du niveau de risque cardiovasculaire",
-        "Un fibrate systématiquement, en première intention",
-        "Une statine uniquement si le LDL-cholestérol dépasse 3 g/L"
+        "Diagnostiquer le diabète immédiatement",
+        "Confirmer par un second test concordant avant de conclure",
+        "Exclure le diabète définitivement",
+        "Attendre cinq ans avant de retester"
       ],
       "a": 1,
-      "e": "Le diabète de type 2 chez l'adulte de 40 à 75 ans justifie en général une statine, avec une intensité et une cible de LDL-cholestérol adaptées au risque cardiovasculaire global (facteurs de risque, atteinte d'organe cible). Les fibrates n'ont pas leur place en première intention dans cette situation.",
-      "s": "ADA Standards of Care 2026, section 10 (à vérifier) ; recommandations ESC/EAS sur la dyslipidémie (à vérifier)"
+      "e": "Le seuil d'HbA1c diagnostique est de 6,5 % ou plus. Sauf hyperglycémie franche, le diagnostic est confirmé par un second résultat concordant (ADA 2026, chapitre diagnostic ; à vérifier).",
+      "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
     },
     {
-      "q": "Devant une plaie du pied chez un patient neuropathique, quel est le premier geste à privilégier ?",
+      "q": "Au diagnostic d'un diabète de type 2, quel examen de la rétine est recommandé ?",
       "c": [
-        "Pansement simple et nouveau rendez-vous dans un mois",
-        "Décharge de la zone, examen complet, recherche d'une infection et d'une artériopathie, puis avis spécialisé rapide",
-        "Application d'une crème corticoïde jusqu'à la cicatrisation",
-        "Attendre une semaine pour voir si la plaie évolue"
+        "Aucun, sauf symptômes visuels",
+        "Examen du fond d'œil dilaté au diagnostic, puis à intervalle fixé selon le risque",
+        "Uniquement après dix ans d'évolution",
+        "Tous les cinq ans seulement"
       ],
       "a": 1,
-      "e": "La décharge mécanique, l'examen complet de la plaie et la recherche d'une infection ou d'une artériopathie sont les premiers gestes. Un avis spécialisé rapide (podologue, équipe plaie, chirurgien vasculaire ou infectiologue selon les cas) est indiqué, car l'ulcère du pied est une urgence fréquente chez ces patients.",
-      "s": "IWGDF / IDSA, recommandations sur les infections du pied diabétique (à vérifier dans le texte intégral)"
+      "e": "Un examen de la rétine est recommandé au diagnostic du diabète de type 2, puis selon le risque et les résultats (souvent annuel en présence de rétinopathie, tous les un à deux ans sinon ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026, chapitre rétinopathie (à vérifier dans le texte intégral)"
     },
     {
-      "q": "À quoi sert le monofilament de 10 g dans le suivi du patient diabétique ?",
+      "q": "Quel test est utilisé pour dépister l'albuminurie chez un patient diabétique ?",
       "c": [
-        "Mesurer la pression artérielle au niveau des membres inférieurs",
-        "Dépister la perte de sensibilité protectrice du pied",
-        "Mesurer l'index de pression systolique de cheville",
-        "Évaluer la glycémie capillaire au repos"
+        "La bandelette urinaire seule, sans répétition",
+        "Le rapport albumine/créatinine urinaire sur échantillon, à confirmer si besoin",
+        "La glycémie à jeun",
+        "Le dosage de la créatinine plasmatique seul"
       ],
       "a": 1,
-      "e": "Le monofilament de 10 g est un test simple de dépistage de la perte de sensibilité protectrice (LOPS), facteur de risque majeur d'ulcération. Il est souvent associé à d'autres tests (diapason, examen vasculaire) pour stratifier le risque.",
-      "s": "IWGDF, recommandations sur le pied diabétique (2023) ; ADA Standards of Care 2026, section pied (à vérifier)"
+      "e": "Le rapport albumine/créatinine urinaire est le test de référence pour dépister et classer l'albuminurie (A1, A2, A3), à confirmer par un second prélèvement si le résultat est anormal (KDIGO 2024 ; ADA 2026 ; à vérifier).",
+      "s": "KDIGO 2024 ; ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+    },
+    {
+      "q": "Chez un diabétique fumeur, quelle démarche est recommandée ?",
+      "c": [
+        "Ne rien proposer, le tabac n'influence pas le risque cardiovasculaire",
+        "Proposer un sevrage tabagique de façon systématique, avec un accompagnement",
+        "Réserver le sevrage aux patients sans hypertension",
+        "Déconseiller l'arrêt pour éviter une prise de poids"
+      ],
+      "a": 1,
+      "e": "Le tabac aggrave le risque cardiovasculaire chez le diabétique ; l'arrêt doit être proposé systématiquement avec un accompagnement (ADA 2026 ; recommandations nationales sur le sevrage tabagique ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026 ; recommandations nationales sur le sevrage tabagique (à vérifier)"
     }
   ]
 }

@@ -1,0 +1,160 @@
+{
+  "format": "diabetetrainer-pack",
+  "version": 1,
+  "id": "pack-2026-11-27",
+  "titre": "Pack 6 : fausse HbA1c, diagnostic et tension artérielle",
+  "date": "2026-11-27",
+  "avertissement": "Contenu d'entraînement. Vérifiez les doses dans le RCP et le texte intégral des recommandations.",
+  "cas": [
+    {
+      "id": "pack-2026-11-27c1",
+      "titre": "Femme de 49 ans, HbA1c discordante et anémie ferriprive",
+      "niveau": "Diagnostic",
+      "enonce": "Mme V., 49 ans, IMC 27. Elle consulte pour une fatigue. Hémogramme : hémoglobine 10,8 g/dL, microcytose, ferritine à 8 µg/L. HbA1c à 6,9 %. Elle mesure sa glycémie capillaire à jeun entre 1,15 et 1,30 g/L depuis trois semaines. Pas de traitement. Elle n'a pas de saignement extériorisé, mais ses règles sont abondantes.",
+      "questions": [
+        {
+          "q": "Quelle est l'interprétation la plus prudente de l'HbA1c à 6,9 % chez cette patiente ?",
+          "c": [
+            "Diabète confirmé, traitement immédiat sans autre examen",
+            "HbA1c peu fiable en contexte de carence martiale : il faut la confirmer et tenir compte des glycémies capillaires",
+            "Diabète exclu, l'HbA1c est normale",
+            "Résultat sans valeur, il faut une glycémie à 2 h après un repas"
+          ],
+          "a": 1,
+          "e": "La carence en fer peut modifier l'HbA1c (en général en l'élevant), si bien qu'elle ne reflète pas bien la glycémie moyenne. Des glycémies capillaires élevées imposent une évaluation complète plutôt que de se fier à une seule valeur (ADA Standards of Care 2026, chapitre diagnostic ; à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
+        },
+        {
+          "q": "Avant de conclure sur le diabète, quelle prise en charge de l'anémie est la plus appropriée ?",
+          "c": [
+            "Prescrire du fer sans rechercher la cause",
+            "Rechercher la cause de la carence en fer (règles abondantes, saignement digestif selon le contexte) et la traiter",
+            "Attendre la ménopause pour réévaluer",
+            "Arrêter les glycémies capillaires"
+          ],
+          "a": 1,
+          "e": "Une carence martiale impose de chercher sa cause (pertes menstruelles, saignement digestif selon l'âge et le contexte) en plus de sa correction. Le bilan ne se limite pas au traitement par fer (bon sens clinique et recommandations nationales sur l'anémie ferriprive ; à vérifier dans le texte intégral).",
+          "s": "Recommandations nationales sur l'anémie ferriprive (à vérifier dans le texte intégral)"
+        },
+        {
+          "q": "Quel test peut éclairer la glycémie quand l'HbA1c est peu fiable ?",
+          "c": [
+            "Aucun, l'HbA1c reste fiable dans tous les cas",
+            "Pesée corporelle",
+            "Pas de test, il faut attendre trois mois",
+            "Profil glycémique capillaire, fructosamine ou glycémie à jeun, selon le contexte"
+          ],
+          "a": 3,
+          "e": "Lorsque l'HbA1c est discordante (anémie, hémolyse, saignement, insuffisance rénale), on s'appuie sur les glycémies capillaires, la fructosamine ou la glycémie plasmatique à jeun, selon le contexte (ADA Standards of Care 2026, chapitre diagnostic ; à vérifier).",
+          "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
+        }
+      ]
+    },
+    {
+      "id": "pack-2026-11-27c2",
+      "titre": "Homme de 58 ans, diabète de type 2 récent et tension élevée",
+      "niveau": "Complications",
+      "enonce": "M. Z., 58 ans, diabète de type 2 découvert il y a 2 mois, IMC 30. HbA1c à 8,0 %, DFG 78 mL/min/1,73 m², albuminurie 45 mg/g (A2). Tension artérielle à 146/90 mmHg sur deux mesures au cabinet, sans traitement antihypertenseur. Kaliémie 4,2 mmol/L. Il fume 10 cigarettes par jour. Pas d'antécédent cardiovasculaire connu.",
+      "questions": [
+        {
+          "q": "Quelle cible tensionnelle viser chez ce patient ?",
+          "c": [
+            "Inférieure à 140/90 mmHg",
+            "Inférieure à 130/80 mmHg si elle est bien tolérée",
+            "Inférieure à 120/70 mmHg dans tous les cas",
+            "Aucune cible chez le diabétique"
+          ],
+          "a": 1,
+          "e": "Les recommandations ADA visent en général une tension inférieure à 130/80 mmHg chez l'adulte diabétique, si elle est bien tolérée, en évitant l'hypotension orthostatique (à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026, chapitre gestion du risque cardiovasculaire (à vérifier)"
+        },
+        {
+          "q": "Quel traitement antihypertenseur privilégier en première intention, compte tenu de l'albuminurie A2 ?",
+          "c": [
+            "Un IEC ou un sartan (ARA II), dont la néphroprotection est documentée",
+            "Un bêtabloquant seul, en première intention",
+            "Un diurétique de l'anse seul, sans autre classe",
+            "Aucun traitement, l'albuminurie est modérée"
+          ],
+          "a": 0,
+          "e": "En cas d'hypertension et d'albuminurie chez le diabétique, un IEC ou un ARA II est recommandé en première intention, à dose progressive, avec contrôle de la créatinine et de la kaliémie après l'instauration (ADA 2026 ; KDIGO 2024 ; à vérifier dans le texte intégral pour le délai et les seuils).",
+          "s": "ADA Standards of Care 2026 ; KDIGO 2024 (à vérifier dans le texte intégral)"
+        },
+        {
+          "q": "Quel bilan est recommandé au diagnostic, en plus de la glycémie ?",
+          "c": [
+            "Aucun, la glycémie suffit",
+            "Examen du fond d'œil et bilan lipidique, une statine étant à discuter selon le risque cardiovasculaire",
+            "Scanner thoracique systématique",
+            "Dosage de la vitamine B12 seul"
+          ],
+          "a": 1,
+          "e": "Au diagnostic du diabète de type 2, un examen de la rétine et un bilan lipidique sont recommandés. Une statine est généralement indiquée chez l'adulte diabétique de 40 à 75 ans, avec une intensité adaptée au risque cardiovasculaire (ADA 2026 ; à vérifier dans le texte intégral).",
+          "s": "ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quelle est la cible tensionnelle la plus souvent retenue chez l'adulte diabétique ?",
+      "c": [
+        "Inférieure à 140/90 mmHg",
+        "Inférieure à 130/80 mmHg si elle est bien tolérée",
+        "Inférieure à 120/80 mmHg pour tous",
+        "Inférieure à 150/90 mmHg"
+      ],
+      "a": 1,
+      "e": "La cible usuelle est inférieure à 130/80 mmHg si elle est bien tolérée, à individualiser selon le risque et la tolérance (ADA 2026 ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+    },
+    {
+      "q": "Une HbA1c isolée de 6,7 % sans symptômes ni hyperglycémie franche : que faut-il faire ?",
+      "c": [
+        "Diagnostiquer le diabète immédiatement",
+        "Confirmer par un second test concordant avant de conclure",
+        "Exclure le diabète définitivement",
+        "Attendre cinq ans avant de retester"
+      ],
+      "a": 1,
+      "e": "Le seuil d'HbA1c diagnostique est de 6,5 % ou plus. Sauf hyperglycémie franche, le diagnostic est confirmé par un second résultat concordant (ADA 2026, chapitre diagnostic ; à vérifier).",
+      "s": "ADA Standards of Care 2026, chapitre diagnostic (à vérifier dans le texte intégral)"
+    },
+    {
+      "q": "Au diagnostic d'un diabète de type 2, quel examen de la rétine est recommandé ?",
+      "c": [
+        "Aucun, sauf symptômes visuels",
+        "Examen du fond d'œil dilaté au diagnostic, puis à intervalle fixé selon le risque",
+        "Uniquement après dix ans d'évolution",
+        "Tous les cinq ans seulement"
+      ],
+      "a": 1,
+      "e": "Un examen de la rétine est recommandé au diagnostic du diabète de type 2, puis selon le risque et les résultats (souvent annuel en présence de rétinopathie, tous les un à deux ans sinon ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026, chapitre rétinopathie (à vérifier dans le texte intégral)"
+    },
+    {
+      "q": "Quel test est utilisé pour dépister l'albuminurie chez un patient diabétique ?",
+      "c": [
+        "La bandelette urinaire seule, sans répétition",
+        "Le rapport albumine/créatinine urinaire sur échantillon, à confirmer si besoin",
+        "La glycémie à jeun",
+        "Le dosage de la créatinine plasmatique seul"
+      ],
+      "a": 1,
+      "e": "Le rapport albumine/créatinine urinaire est le test de référence pour dépister et classer l'albuminurie (A1, A2, A3), à confirmer par un second prélèvement si le résultat est anormal (KDIGO 2024 ; ADA 2026 ; à vérifier).",
+      "s": "KDIGO 2024 ; ADA Standards of Care 2026 (à vérifier dans le texte intégral)"
+    },
+    {
+      "q": "Chez un diabétique fumeur, quelle démarche est recommandée ?",
+      "c": [
+        "Ne rien proposer, le tabac n'influence pas le risque cardiovasculaire",
+        "Proposer un sevrage tabagique de façon systématique, avec un accompagnement",
+        "Réserver le sevrage aux patients sans hypertension",
+        "Déconseiller l'arrêt pour éviter une prise de poids"
+      ],
+      "a": 1,
+      "e": "Le tabac aggrave le risque cardiovasculaire chez le diabétique ; l'arrêt doit être proposé systématiquement avec un accompagnement (ADA 2026 ; recommandations nationales sur le sevrage tabagique ; à vérifier dans le texte intégral).",
+      "s": "ADA Standards of Care 2026 ; recommandations nationales sur le sevrage tabagique (à vérifier)"
+    }
+  ]
+}
